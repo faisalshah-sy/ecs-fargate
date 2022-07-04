@@ -47,6 +47,12 @@ resource "aws_ecs_task_definition" "abc" {
           hostPort      = var.service_port
         }
       ]
+      environment = [
+        {
+          "name" : "version",
+          "value" : var.app_version
+        }
+      ]
     }
   ])
 }
