@@ -7,3 +7,8 @@ Code to create vpc and deploy a sample app on ecs fargate.
 2. Update variables in app.tf for application.
 3. Run deploy.sh from root of repo.
 
+Improvements to do:
+
+- Logging 
+- Application autoscaling 
+- Metrics Monitoring 
